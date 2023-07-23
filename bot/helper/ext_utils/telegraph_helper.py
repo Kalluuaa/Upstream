@@ -72,7 +72,7 @@ class TelegraphHelper:
                     nxt_page += 1
             self.edit_page(
                 path = path[prev_page],
-                title = 'WD Zone Mirror Torrent Search',
+                title = 'Max Leech Zone Torrent Search',
                 content=content
             )
         return
