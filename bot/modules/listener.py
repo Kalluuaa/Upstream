@@ -249,7 +249,7 @@ class MirrorLeechListener:
                     source_link = message_args[1]
                     if is_magnet(source_link):
                         link = telegraph.create_page(
-                        title='WD Zone Source Link',
+                        title='Max Leech Zone Source Link',
                         content=source_link,
                     )["path"]
                         buttons.buildbutton(f"🔗 Source Link", f"https://graph.org/{link}")
@@ -265,7 +265,7 @@ class MirrorLeechListener:
                             source_link = reply_text.strip()
                             if is_magnet(source_link):
                                 link = telegraph.create_page(
-                                    title='WD Zone Source Link',
+                                    title='Max Leech Zone Source Link',
                                     content=source_link,
                                 )["path"]
                                 buttons.buildbutton(f"🔗 Source Link", f"https://graph.org/{link}")
@@ -357,7 +357,7 @@ class MirrorLeechListener:
                                 source_link = reply_text.strip()
                                 if is_magnet(source_link):
                                     link = telegraph.create_page(
-                                        title='WD Zone Source Link',
+                                        title='Max Leech Zone Source Link',
                                         content=source_link,
                                     )["path"]
                                     buttons.buildbutton(f"🔗 Source Link", f"https://graph.org/{link}")
