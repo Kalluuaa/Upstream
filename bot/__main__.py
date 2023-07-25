@@ -59,7 +59,7 @@ def start(update, context):
     reply_markup = buttons.build_menu(2)
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
-Powered Master ◦•●◉✿ ᴍᴀx ʟᴇᴇᴄʜ ᴢᴏɴᴇ ✿◉●•◦ is online now 🕊️ | Use @Max_Leech_Zone_Update for mirror games 💚. ❌U can't use me for mirror or leech games❌.
+Powered Master ✿ᴍᴀx ʟᴇᴇᴄʜ ᴢᴏɴᴇ✿ is online now 🕊️ | Use @Max_Leech_Zone_Update for mirror games 💚. ❌U can't use me for mirror or leech games❌.
 '''
         sendMarkup(start_string, context.bot, update.message, reply_markup)
     else:
